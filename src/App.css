@@ -1,38 +1,46 @@
-.App {
+body{
+  background-image: url("https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.weather-box{
+  border: 2px solid white;
+  padding: 50px;
+  border-radius: 30px;
+  background: rgba(71, 70, 70, 0.674);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button{
+  margin-left: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-div{
+  margin-top: 20px;
+  padding: 30px;
+  width: 600px;
+  border-radius: 80px;
+  background-color: rgba(14, 14, 14, 0.862)
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.name{
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.temp{
+  font-size: 35px;
+  color: rgb(8, 164, 8);
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather{
+  color: rgb(73, 155, 173);
+  font-weight: bold;
+}
+.button-pa{
+  word-spacing: 20px;
 }
