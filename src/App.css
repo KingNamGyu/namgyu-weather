@@ -39,6 +39,7 @@ body {
 .name {
   font-weight: bold;
   font-size: 25px;
+  color: rgba(255, 255, 255, 0.729);
 }
 .temp {
   font-weight: bold;
@@ -50,11 +51,25 @@ body {
   font-size: 40px;
   color: aquamarine;
 }
-@media screen and (max-width: 63rem) {
+@media screen and (max-width: 33rem) {
   .menu-container Button {
     margin-right: 0px;
   }
   .menu-container {
    width: 400px;
+  }
+  .name {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .temp {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(33, 194, 33);
+  }
+  .description {
+    font-weight: bold;
+    font-size: 30px;
+    color: aquamarine;
   }
 }
