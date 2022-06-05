@@ -54,4 +54,7 @@ body {
   .menu-container Button {
     margin-right: 0px;
   }
+  .menu-container {
+   width: 400px;
+  }
 }
