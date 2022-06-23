@@ -5,7 +5,7 @@ const WeatherButton = ({ cities, selectedCity, handleCityChange }) => {
   return (
     <div class="menu-container">
       <Button
-        variant={`${selectedCity == null ? "outline-warning" : "warning"}`}
+        variant={`${selectedCity == null ? "outline-info" : "info"}`}
         onClick={() => handleCityChange("current")}
       >
         Current Location
@@ -13,7 +13,7 @@ const WeatherButton = ({ cities, selectedCity, handleCityChange }) => {
 
       {cities.map((city) => (
         <Button
-          variant={`${selectedCity == city ? "outline-warning" : "warning"}`}
+          variant={`${selectedCity == city ? "outline-info" : "info"}`}
           onClick={() => handleCityChange(city)}
         >
           {city}
