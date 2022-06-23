@@ -34,7 +34,7 @@ body {
 }
 
 .menu-container Button:hover {
-  background-color: #ffc107;
+  background-color: rgb(122, 122, 251);
 }
 .name {
   font-weight: bold;
